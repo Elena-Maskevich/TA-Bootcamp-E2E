@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669642065624' stop='1669642072398'>
+    <name>Bootcamp E2E: Internet shop logo button</name>
+    <title>Bootcamp E2E: Internet shop logo button</title>
+    <test-cases>
+        <test-case start='1669642065626' status='passed' stop='1669642065627'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669642065627' status='broken' stop='1669642072393'>
+            <name>When I Open Today's Best Deals tab</name>
+            <title>When I Open Today's Best Deals tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1669642065629' status='passed' stop='1669642065909'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e9ec666e-31ab-4608-8a7d-815a79edc0e9-attachment.json' type='application/json' size='112'/>
+                        <attachment title='Response' source='1884e92b-4f9d-4e12-a4c6-b85fdd34f7e8-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669642066551' status='broken' stop='1669642072393'>
+                    <name>POST /session/:sessionId/element/48f5a8f4-6e2e-453b-be69-a4947fbec40c/click</name>
+                    <title>POST /session/:sessionId/element/48f5a8f4-6e2e-453b-be69-a4947fbec40c/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='3af0a027-5ecf-4ead-9a4a-4316c023d287-attachment.json' type='application/json' size='83'/>
+            </attachments>
+            <failure>
+                <message>element click intercepted: element click intercepted: Element &lt;span class="font-s">...&lt;/span> is not clickable at point (239, 89). Other element would receive the click: &lt;img class="modal-Website-img" src="https://promotions.newegg.com/nepro/22-2119/Homepage_Popup_Desktop.png" alt="CYBER MONDAY"></message>
+                <stack-trace>element click intercepted: element click intercepted: Element &lt;span class="font-s">...&lt;/span> is not clickable at point (239, 89). Other element would receive the click: &lt;img class="modal-Website-img" src="https://promotions.newegg.com/nepro/22-2119/Homepage_Popup_Desktop.png" alt="CYBER MONDAY">
+                  (Session info: chrome=107.0.5304.107)
+                    at getErrorFromResponseBody (E:\Evolution\E2E\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (E:\Evolution\E2E\node_modules\webdriver\build\request\index.js:166:60)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Element.wrapCommandFn (E:\Evolution\E2E\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (E:\Evolution\E2E\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Evolution\E2E\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (E:\Evolution\E2E\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (E:\Evolution\E2E\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Evolution\E2E\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (E:\Evolution\E2E\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669642072395' status='passed' stop='1669642072398'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

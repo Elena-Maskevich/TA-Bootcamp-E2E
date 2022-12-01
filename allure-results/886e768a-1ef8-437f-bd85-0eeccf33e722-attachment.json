@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//img[contains(.,\"header2021-logo-img\")]\"}\n  (Session info: chrome=107.0.5304.121)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00D7ACD3+2075859]\n\tOrdinal0 [0x00D0EE61+1633889]\n\tOrdinal0 [0x00C0B7BD+571325]\n\tOrdinal0 [0x00C3AC2F+764975]\n\tOrdinal0 [0x00C3AE1B+765467]\n\tOrdinal0 [0x00C6D0F2+970994]\n\tOrdinal0 [0x00C57364+881508]\n\tOrdinal0 [0x00C6B56A+963946]\n\tOrdinal0 [0x00C57136+880950]\n\tOrdinal0 [0x00C2FEFD+720637]\n\tOrdinal0 [0x00C30F3F+724799]\n\tGetHandleVerifier [0x0102EED2+2769538]\n\tGetHandleVerifier [0x01020D95+2711877]\n\tGetHandleVerifier [0x00E0A03A+521194]\n\tGetHandleVerifier [0x00E08DA0+516432]\n\tOrdinal0 [0x00D1682C+1665068]\n\tOrdinal0 [0x00D1B128+1683752]\n\tOrdinal0 [0x00D1B215+1683989]\n\tOrdinal0 [0x00D26484+1729668]\n\tBaseThreadInitThunk [0x76A76359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77147A94+228]\n\tRtlGetAppContainerNamedObjectPath [0x77147A64+180]\n"
+}

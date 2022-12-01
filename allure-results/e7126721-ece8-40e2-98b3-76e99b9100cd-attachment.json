@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#app > header > div.page-content-inner > div:nth-child(1) > div.section-left.auto-flex > div.header2021-search.auto-flex.is-active > div\"}\n  (Session info: chrome=107.0.5304.107)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00B1ACD3+2075859]\n\tOrdinal0 [0x00AAEE61+1633889]\n\tOrdinal0 [0x009AB7BD+571325]\n\tOrdinal0 [0x009DAC2F+764975]\n\tOrdinal0 [0x009DAE1B+765467]\n\tOrdinal0 [0x00A0D0F2+970994]\n\tOrdinal0 [0x009F7364+881508]\n\tOrdinal0 [0x00A0B56A+963946]\n\tOrdinal0 [0x009F7136+880950]\n\tOrdinal0 [0x009CFEFD+720637]\n\tOrdinal0 [0x009D0F3F+724799]\n\tGetHandleVerifier [0x00DCEED2+2769538]\n\tGetHandleVerifier [0x00DC0D95+2711877]\n\tGetHandleVerifier [0x00BAA03A+521194]\n\tGetHandleVerifier [0x00BA8DA0+516432]\n\tOrdinal0 [0x00AB682C+1665068]\n\tOrdinal0 [0x00ABB128+1683752]\n\tOrdinal0 [0x00ABB215+1683989]\n\tOrdinal0 [0x00AC6484+1729668]\n\tBaseThreadInitThunk [0x758E6359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77A37A94+228]\n\tRtlGetAppContainerNamedObjectPath [0x77A37A64+180]\n"
+}
