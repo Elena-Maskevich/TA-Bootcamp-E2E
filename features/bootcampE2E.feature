@@ -8,7 +8,7 @@ When I search the word <item>
 Then I check that at least one item appears
 
 Examples: 
-     |item|
+     |item   |
      |Windows|
 
 Scenario Outline:  Internet shop logo button
@@ -17,6 +17,6 @@ When I open tab <tab>
 Then I check that the main page opened
 
 Examples:
-|tab|
-|Today's Best deals|
+     |tab               |
+     |Today's Best deals|
 

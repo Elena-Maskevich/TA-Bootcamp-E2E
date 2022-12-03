@@ -13,6 +13,7 @@ When(/^I search the word (\w+)$/, async (item) => {
     const search = await $('input[type=search]');
     await search.setValue(item);
     const search_button = await $('//button[contains(.,"Search")]');
+    await search_button.waitForClickable({ timeout: 10000 });
     await search_button.click();
 });
 
@@ -28,7 +29,7 @@ When(/^I open tab (.*)$/, async (tab) => {
 });
 
 When(/^I click on the Internet shop logo$/, async () => {
-    const logo = await $('#app > header > div.page-content-inner > div:nth-child(1) > div.section-left.auto-flex > div.header2021-logo > a > img');
+    const logo = (await $('.header2021-logo'));
     await logo.click();
 });
 

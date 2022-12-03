@@ -1,0 +1,458 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669997489861' stop='1669997514670'>
+    <name>Bootcamp E2E: Search bar</name>
+    <title>Bootcamp E2E: Search bar</title>
+    <test-cases>
+        <test-case start='1669997489862' status='passed' stop='1669997489864'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669997489864' status='passed' stop='1669997496286'>
+            <name>Given on the home page</name>
+            <title>Given on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps>
+                <step start='1669997489867' status='passed' stop='1669997496277'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='39aefe7a-ac6c-4306-8d60-86245e977106-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669997496287' status='passed' stop='1669997500901'>
+            <name>Given I refresh page</name>
+            <title>Given I refresh page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps>
+                <step start='1669997496292' status='passed' stop='1669997500901'>
+                    <name>POST /session/:sessionId/refresh</name>
+                    <title>POST /session/:sessionId/refresh</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669997500901' status='passed' stop='1669997501952'>
+            <name>When I search the word Windows</name>
+            <title>When I search the word Windows</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps>
+                <step start='1669997500907' status='passed' stop='1669997501090'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='67b86ad9-025b-4534-b6c9-5c9493769272-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='da569355-b4aa-43c4-a921-46c4962fbc26-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669997501141' status='passed' stop='1669997501420'>
+                    <name>POST /session/:sessionId/element/3aab1f20-8161-470b-bd7b-efc97d80908c/clear</name>
+                    <title>POST /session/:sessionId/element/3aab1f20-8161-470b-bd7b-efc97d80908c/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669997501428' status='passed' stop='1669997501593'>
+                    <name>POST /session/:sessionId/element/3aab1f20-8161-470b-bd7b-efc97d80908c/value</name>
+                    <title>POST /session/:sessionId/element/3aab1f20-8161-470b-bd7b-efc97d80908c/value</title>
+                    <attachments>
+                        <attachment title='Request' source='ba2be569-5945-41f4-9f61-94a199a8d3dd-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669997501593' status='passed' stop='1669997501636'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='efc9e0ec-3674-4b5d-91ce-dc63d57c8f5c-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='54583837-3534-41fa-a16d-e54f6cf42f45-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669997501673' status='passed' stop='1669997501715'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='3c235fbd-3a0c-4b62-9b9f-a7f518fd4c2a-attachment.json' type='application/json' size='8338'/>
+                        <attachment title='Response' source='c83406e3-baa7-4da7-8cc9-3c64bae67d4c-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669997501716' status='passed' stop='1669997501752'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='f4457078-dc99-4769-a093-8b062bd0a786-attachment.json' type='application/json' size='5649'/>
+                        <attachment title='Response' source='816daf74-ee67-4b07-8482-21ebaea4336e-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669997501753' status='passed' stop='1669997501951'>
+                    <name>POST /session/:sessionId/element/eae2b668-e433-405d-94ee-04090cac78e5/click</name>
+                    <title>POST /session/:sessionId/element/eae2b668-e433-405d-94ee-04090cac78e5/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669997501952' status='failed' stop='1669997514667'>
+            <name>Then I check that at least one item appears</name>
+            <title>Then I check that at least one item appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps>
+                <step start='1669997501953' status='passed' stop='1669997501990'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='39cf2bca-d0af-4ec7-ba91-6b2b6cb1655e-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='e8b6bcd1-84c8-46d4-89f6-78a6391519e3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669997501997' status='passed' stop='1669997503390'>
+                    <name>GET /session/:sessionId/element/048d72a2-bb4f-4d67-ae13-9ddc1c7c3e66/text</name>
+                    <title>GET /session/:sessionId/element/048d72a2-bb4f-4d67-ae13-9ddc1c7c3e66/text</title>
+                    <attachments>
+                        <attachment title='Response' source='94528c0a-619a-46d6-9432-579991c5d35e-attachment.json' type='application/json' size='5205'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669997503400' status='passed' stop='1669997514114'>
+                    <name>GET /session/:sessionId/element/048d72a2-bb4f-4d67-ae13-9ddc1c7c3e66/text</name>
+                    <title>GET /session/:sessionId/element/048d72a2-bb4f-4d67-ae13-9ddc1c7c3e66/text</title>
+                    <attachments>
+                        <attachment title='Response' source='a1a74b9d-0eab-4ff2-99d6-7cf49d0c8b63-attachment.json' type='application/json' size='5205'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Expect $(`#app`) to have text containing</message>
+                <stack-trace>Error: Expect $(`#app`) to have text containing
+                
+                - Expected  -   1
+                + Received  + 257
+                
+                - You May Also Be Interested
+                + ☾
+                + ☀
+                + Welcome
+                + Sign In / Register
+                + Returns
+                + &amp; Orders
+                + Today's Best Deals
+                + Best Sellers
+                + Newegg LIVE
+                + Gift Cards
+                + Game Deals
+                + PC Builder
+                + Browsing History
+                + NEWEGG BUSINESS
+                + FEEDBACK
+                + HELP CENTER
+                + Holiday Shipping Details &amp; Extended Holiday Returns
+                + SIGN IN FOR THE BEST EXPERIENCE
+                + SIGN IN
+                + New to Newegg? 
+                + SIGN UP
+                + CATEGORIES YOU MAY BE INTERESTED IN
+                + Headphones &amp; Accessories
+                + Processors - Desktops
+                + PRODUCTS YOU MAY BE INTERESTED IN
+                + See More
+                + SEE ALL DEALS
+                + UP TO
+                + 52
+                + %
+                + Off
+                + PCS &amp; LAPTOPS
+                + UP TO
+                + 64
+                + %
+                + Off
+                + COMPONENTS
+                + TODAY'S BEST DEALS
+                + ENDING IN
+                + 15:48:15
+                + (10)
+                + AUKEY Bedside Table Lamp, Night Light with Rechargeable Battery for Bedrooms, Dimmable 3000K-6500K Warm White Light &amp; Color-Changing RGB LT-T8
+                + Save 56%
+                + $
+                + 12
+                + .99
+                + $29.99
+                + FREE SHIPPING
+                + ASUS ROG CROSSHAIR X670E HERO (WiFi 6E) Socket AM5 (LGA 1718) Ryzen 7000 gaming motherboard ATX (18 + 2 power stages PCIe 5.0 DDR5 support five M.2 slots USB 3.2 Gen 2x2 front-panel connector) and AMD Ryzen 9 7900X - 12-Core 4.7 GHz - Socke
+                + $
+                + 1,128
+                + .99
+                + $1,173.99
+                + (82)
+                + Domino's $25 Gift Card (Email Delivery)
+                + Promotion Deal
+                + $
+                + 25
+                + .00
+                + (2)
+                + Mobile TV Cart with Wheels for 23-55" LCD LED OLED Flat Curved Screen Outdoor TV Height Adjustable Shelf Cart Floor Stand Holds Up to 55 lbs Mobile Monitor Stand
+                + Save 51%
+                + $
+                + 43
+                + .99
+                + $89.99
+                + FREE SHIPPING
+                + (2)
+                + Fandango $25 Gift Card (Email Delivery)
+                + Save 20%
+                + $
+                + 20
+                + .00
+                + $25.00
+                + (777)
+                + Corsair 4000D Airflow CC-9011200-WW Black Computer Case
+                + $15 Off W/ Code
+                + $
+                + 104
+                + .99
+                + FREE SHIPPING
+                + (70)
+                + IPASON - Gaming desktop - AMD Ryzen 5 5600G 6 core 3.9GHz - GeForce RTX 3060 -16GB(8*2) DDR4 3200MHz - 500GB M.2 NVMe - 550W PSU - Windows 11 home - WIFI - Gaming PC
+                + Limited Time Offer
+                + See price in cart
+                + $1,099.00
+                + FREE SHIPPING
+                + (120)
+                + AUKEY True Wireless Stereo Earbuds with Charging Case Bluetooth Touch Control Waterproof IPX6 EP-T21P
+                + Save 80%
+                + Combo Deal
+                + $
+                + 9
+                + .99
+                + $49.99
+                + FREE SHIPPING
+                + (2)
+                + Adjustable TV Tray Table - TV Dinner Tray on Bed &amp; Sofa, Comfortable Folding Table with 6 Height &amp; 3 Tilt Angle Adjustments (Black)
+                + Limited Time Offer
+                + $
+                + 27
+                + .99
+                + FREE SHIPPING
+                + SEE ALL DEALS
+                + SPOTLIGHT: PCS &amp; MONITORS
+                + See More
+                + (138)
+                + CyberpowerPC Gaming Desktop Gamer Master GM60900 Ryzen 7 5000 Series 5800X (3.80GHz) 16GB DDR4 1 TB PCIe SSD NVIDIA GeForce RTX 3060 Ti Windows 10 Home 64-bit
+                + Promotion Deal
+                + $
+                + 1,834
+                + .99
+                + $1,899.99
+                + FREE SHIPPING
+                + (17)
+                + ASUS ZenBook Pro 15 OLED Laptop 15.6" FHD Touch Display, AMD Ryzen 7 5800H CPU, NVIDIA GeForce RTX 3050 Ti GPU, 16GB RAM, 1TB PCIe SSD, Windows 11 Pro, Pine Grey, UM535QE-NH71T
+                + Save 14%
+                + $
+                + 1,199
+                + .99
+                + $1,399.99
+                + FREE SHIPPING
+                + (18)
+                + Acer K222HQL bid 21.5" Full HD 1920 x 1080 60Hz DVI HDMI VGA EcoDisplay Adaptive Contrast Management Backlit LED LCD Monitor
+                + Save 30%
+                + $
+                + 89
+                + .99
+                + $129.99
+                + FREE SHIPPING
+                + (1)
+                + Refurbished: Apple A1407 2560 x 1440 Resolution 27" WideScreen LCD Flat Panel Computer Monitor Display
+                + $
+                + 499
+                + .00
+                + FREE SHIPPING
+                + Sponsored
+                + TRENDING NOW
+                + See More
+                + (52)
+                + Skytech Blaze 3.0 High-Performance PC Desktop AMD Ryzen 7 5800X 3.8 GHz, RTX 3080, 1TB NVME SSD, 16G DDR4 3200, 850W GOLD PSU, 240mm AIO, AC Wi-Fi, Windows 10 Home 64-bit
+                + Save 25%
+                + $
+                + 1,799
+                + .99
+                + $2,399.99
+                + FREE SHIPPING
+                + (96)
+                + ASRock Radeon RX 6700 XT Challenger D Gaming Graphic Card, 12GB GDDR6 VRAM, AMD RDNA2 (RX6700XT CLD 12G)
+                + Save 7%
+                + Promotion Deal
+                + $
+                + 359
+                + .99
+                + $389.99
+                + FREE SHIPPING
+                + (177)
+                + Intel Core i7-13700K - Core i7 13th Gen Raptor Lake 16-Core (8P+8E) P-core Base Frequency: 3.4 GHz E-core Base Frequency: 2.5 GHz LGA 1700 125W Intel UHD Graphics 770 Desktop Processor - BX8071513700K
+                + Promotion Deal
+                + $
+                + 439
+                + .97
+                + $449.99
+                + FREE SHIPPING
+                + (9)
+                + ASUS VivoBook S 14X OLED Laptop, 14.5" OLED Display 2.8K 16:10 120Hz HDR, Intel Evo Platform, Intel Core i7-12700H CPU, 12GB RAM, 512GB SSD, Windows 11 Home, Midnight Black, S5402ZA-IS74
+                + Save 27%
+                + $
+                + 799
+                + .99
+                + $1,099.99
+                + FREE SHIPPING
+                + CATEGORIES
+                + Software
+                + Sporting Goods
+                + Drones
+                + Automotive
+                + TVs
+                + Home Audio
+                + LIMITED-TIME HOLIDAY STEALS
+                + GAMING
+                + UP TO
+                + 88
+                + %
+                + Off
+                + ACCESSORIES
+                + UP TO
+                + 85
+                + %
+                + Off
+                + HOME OFFICE ESSENTIALS
+                + UP TO
+                + 64
+                + %
+                + Off
+                + GIFTS UNDER $200
+                + UP TO
+                + 88
+                + %
+                + Off
+                + FEATURED BRANDS
+                + DEALS JUST FOR YOU
+                + Sign up to receive exclusive offers in your inbox.
+                + SIGN UP
+                + View Latest Email Deals
+                + DOWNLOAD OUR APP
+                + Enter your phone number and we'll send you a download link.
+                + +1
+                + +1
+                + SEND LINK
+                + OR
+                + Scan the QR code to download App
+                + Scan this code with your phone's camera.
+                + CUSTOMER SERVICE
+                + Help Center
+                + Track an Order
+                + Return an Item
+                + Return Policy
+                + Privacy &amp; Security
+                + Feedback
+                + MY ACCOUNT
+                + Login/Register
+                + Order History
+                + Returns History
+                + Address Book
+                + Wish Lists
+                + My Build Lists
+                + My Build Showcase
+                + Email Notifications
+                + Subscriptions Orders
+                + Auto Notifications
+                + COMPANY INFORMATION
+                + About Newegg
+                + Investor Relations
+                + Awards/Rankings
+                + Hours and Locations
+                + Press Inquiries
+                + Newegg Careers
+                + Newsroom
+                + Newegg Insider
+                + Calif. Transparency
+                + in Supply Chains Act
+                + TOOLS &amp; RESOURCES
+                + Sell on Newegg
+                + For Your Business
+                + Newegg Partner Services
+                + Become an Affiliate
+                + Site Map
+                + Shop by Brand
+                + Rebates
+                + Mobile Apps
+                + SHOP OUR BRANDS
+                + Newegg Business
+                + Newegg Global
+                + ABS
+                + Rosewill
+                + © 2000-2022 Newegg Inc.  All rights reserved.Terms &amp; ConditionsPrivacy PolicyCookie Preferences
+                    at World.&lt;anonymous> (E:\Evolution\E2E\features\step-definitions\steps.js:23:24)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669997514667' status='passed' stop='1669997514668'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
